@@ -15,14 +15,14 @@ public class App {
 
 			System.out.println("I: " + i + "NUM:" + nums[i]);
 		}
-		
+
 //		String [] words= new String []
-		String[] words = {"Jordan", "Cameron","Adam","Andrew", "Piers"};
-		
+		String[] words = { "Jordan", "Cameron", "Adam", "Andrew", "Piers" };
+
 		for (int i = 0; i < words.length; i++) {
 
 			System.out.println("I: " + i + "WORD:" + words[i]);
 		}
-		
+
 	}
 }
