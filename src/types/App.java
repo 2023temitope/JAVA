@@ -1,4 +1,4 @@
-package demo;
+package types;
 
 public class App {
 public static void main(String[] args) {
@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	int i =2_100_000_000;
 	// without the L Java thinks it's an int
 	long l =999999999999999L;
-	
+//	Ned the f o Java thinks its a double
 	float f = 44.94F;
 	double d= 44.94;
 	
@@ -16,8 +16,11 @@ public static void main(String[] args) {
 	char c ='j';
 	String s= "Jordan";
 	
+	//primitives can never be null
+	s = null;
 	
-	s=null;
+	
+	
 }
 
 
