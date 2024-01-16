@@ -23,7 +23,7 @@ public class App {
 		}
 	}
 
-	public static String fizzBuzz(int num) {
+	public static String fizzBuzz1(int num) {
 		if (num % 3 == 0 && num % 5 == 0) {
 			return "FizzBuzz";
 
@@ -33,13 +33,20 @@ public class App {
 			return "Buzz";
 		} else {
 			return "" + num;
-			return String.valueOf(num);
 		}
 
 	}
 
-	public static String fizzBuzz(int num)  {
-			String output =
-		}
+	public static String fizzBuzz(int num) {
+		String output = "";
+		if (num % 3 == 0)
+			output += "Fizz";
+		if (num % 5 == 0)
+			output += "Buzz";
+
+		if (num % 10 == 0)
+			output += "Yowzer";
+		return output;
+	}
 
 }
