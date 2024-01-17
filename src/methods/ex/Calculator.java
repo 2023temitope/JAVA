@@ -1,4 +1,4 @@
-package methodsex;
+package methods.ex;
 
 public class Calculator {
 	public static void main(String[] args) {

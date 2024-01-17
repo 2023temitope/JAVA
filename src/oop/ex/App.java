@@ -1,4 +1,4 @@
-package oopex;
+package oop.ex;
 
 public class App {
 

@@ -1,4 +1,4 @@
-package arraysex;
+package arrays.ex;
 
 public class App {
 
