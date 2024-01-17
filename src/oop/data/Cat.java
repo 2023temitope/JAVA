@@ -1,6 +1,6 @@
 package oop.data;
 
-public class Cat {
+public class Cat extends Pet {
 	private String name;
 
 	private String breed;
@@ -29,6 +29,10 @@ public class Cat {
 
 	public void sleep() {
 		System.out.println("zzzz");
+	}
+
+	public void meow() {
+		System.out.println("ME0W");
 	}
 
 	public void print() {
